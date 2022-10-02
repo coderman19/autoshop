@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family:  'Roboto', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: darkcyan;
+  background-image: url(./img/bg/bg-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+a, ul, li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #ccc;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  // display: flex;
+  // flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .4);
+  padding: 0 5px;
+  // backdrop-filter: blur(1.5rem);
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+

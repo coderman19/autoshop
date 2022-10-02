@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 5px;
+  .navigation {
+    display: flex;
+    justify-content: row;
+    gap: 10px;
+    ul li {
+      align-items: center;;
+    }
+  }
+}
