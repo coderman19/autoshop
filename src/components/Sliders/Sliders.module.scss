@@ -1,0 +1,29 @@
+.slider {
+  padding-top: 60px;
+  margin: 0 auto;
+//  background-color: darkolivegreen;
+
+
+  div {
+    // border: 1px solid #ccc;
+    // width: 800px;
+    // height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    img {
+      position: center;
+      margin: 0 auto;
+      width: 640px;
+      height: 480px;
+      cursor: pointer;
+    }
+    h3 {
+      font-size: 24px;
+      padding: 10px;
+    }
+    p {
+      width: 640px;
+      margin: 0 auto;
+    }
+  }
+}

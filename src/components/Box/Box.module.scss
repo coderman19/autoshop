@@ -1,0 +1,20 @@
+.boxCard {
+  width: 180px;
+  border: 2px solid #000;
+  cursor: pointer;
+  padding: 10px 5px;
+  text-align: center;
+  &:hover {
+    border: 2px solid red;
+    transition: all  .3s;
+  }
+  img {
+    width: 80px;
+    padding: 5px;
+  }
+  h3 {
+    color: #000;
+    font-size: inherit;
+    padding-bottom: 10px;
+  }
+}

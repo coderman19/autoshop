@@ -16,3 +16,16 @@
     line-height: 33px;
   }
 }
+
+// section box
+.section {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  // margin-bottom: 40px;
+}
+
