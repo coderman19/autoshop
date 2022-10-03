@@ -1,0 +1,117 @@
+.gallery {
+  display: grid; 
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+  grid-template-areas: 
+ 'label0 label1 label2 label3'
+ 'label4 label5 label6 label7'
+ 'label8 label9 label10 label11'
+ 'label12 label13 label14 label15';
+  
+  gap: 0px;
+  height: 100%;
+  img {
+    width: 224px;
+    height: 164px;
+    overflow: hidden;
+  }
+  
+}
+ 
+#item-0 {
+  background-color: #FEC576; 
+  grid-area: label0;
+}
+#item-1 {
+
+  background-color: #95CDFD; 
+  grid-area: label1;
+  
+}
+#item-2 {
+
+  background-color: #95C899; 
+  grid-area: label2;
+  
+}
+#item-3 {
+
+  background-color: #CFDD97; 
+  grid-area: label3;
+  
+}
+#item-4 {
+
+  background-color: #C66DA6; 
+  grid-area: label4;
+  
+}
+#item-5 {
+
+  background-color: #DB59D7; 
+  grid-area: label5;
+  
+}
+#item-6 {
+
+  background-color: #97BBEE; 
+  grid-area: label6;
+  
+}
+#item-7 {
+
+  background-color: #9A9B55; 
+  grid-area: label7;
+  
+}
+#item-8 {
+
+  background-color: #6BCE99; 
+  grid-area: label8;
+  
+}
+#item-9 {
+
+  background-color: #77C5A8; 
+  grid-area: label9;
+  
+}
+#item-10 {
+
+  background-color: #FE5EDB; 
+  grid-area: label10;
+  
+}
+#item-11 {
+
+  background-color: #D5995A; 
+  grid-area: label11;
+  
+}
+#item-12 {
+
+  background-color: #C69EAD; 
+  grid-area: label12;
+  
+}
+#item-13 {
+
+  background-color: #DDD977; 
+  grid-area: label13;
+  
+}
+#item-14 {
+
+  background-color: #9879C8; 
+  grid-area: label14;
+  
+}
+#item-15 {
+
+  background-color: #5ADD7C; 
+  grid-area: label15;
+  
+}
+

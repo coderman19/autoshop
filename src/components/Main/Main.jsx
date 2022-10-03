@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Main.module.scss'
 import Sliders from '../Sliders/Sliders'
+import Gallery from '../../pages/gallery/Gallery'
 
 import img from '../../img/icons/icon-1.svg'
 import img2 from '../../img/icons/icon-2.svg'
@@ -33,6 +34,7 @@ export default function Main() {
         </section>
         <div className="container">
           <Sliders />
+          <Gallery />
         </div>
       
     </div>
